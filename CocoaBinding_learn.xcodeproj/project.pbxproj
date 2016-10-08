@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA76D8C81DA8987300AC40FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA76D8C71DA8987300AC40FD /* AppDelegate.m */; };
+		CA76D8CB1DA8987300AC40FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA76D8CA1DA8987300AC40FD /* main.m */; };
+		CA76D8CE1DA8987300AC40FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA76D8CD1DA8987300AC40FD /* ViewController.m */; };
+		CA76D8D01DA8987300AC40FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA76D8CF1DA8987300AC40FD /* Assets.xcassets */; };
+		CA76D8D31DA8987300AC40FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA76D8D11DA8987300AC40FD /* Main.storyboard */; };
+		CA76D8DE1DA8987300AC40FD /* CocoaBinding_learnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA76D8DD1DA8987300AC40FD /* CocoaBinding_learnTests.m */; };
+		CA76D8E91DA8987300AC40FD /* CocoaBinding_learnUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA76D8E81DA8987300AC40FD /* CocoaBinding_learnUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA76D8DA1DA8987300AC40FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA76D8BB1DA8987300AC40FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA76D8C21DA8987300AC40FD;
+			remoteInfo = CocoaBinding_learn;
+		};
+		CA76D8E51DA8987300AC40FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA76D8BB1DA8987300AC40FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA76D8C21DA8987300AC40FD;
+			remoteInfo = CocoaBinding_learn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA76D8C31DA8987300AC40FD /* CocoaBinding_learn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaBinding_learn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA76D8C61DA8987300AC40FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA76D8C71DA8987300AC40FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA76D8CA1DA8987300AC40FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA76D8CC1DA8987300AC40FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA76D8CD1DA8987300AC40FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA76D8CF1DA8987300AC40FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA76D8D21DA8987300AC40FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA76D8D41DA8987300AC40FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA76D8D91DA8987300AC40FD /* CocoaBinding_learnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaBinding_learnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA76D8DD1DA8987300AC40FD /* CocoaBinding_learnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaBinding_learnTests.m; sourceTree = "<group>"; };
+		CA76D8DF1DA8987300AC40FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA76D8E41DA8987300AC40FD /* CocoaBinding_learnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaBinding_learnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA76D8E81DA8987300AC40FD /* CocoaBinding_learnUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaBinding_learnUITests.m; sourceTree = "<group>"; };
+		CA76D8EA1DA8987300AC40FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA76D8C01DA8987300AC40FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA76D8D61DA8987300AC40FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA76D8E11DA8987300AC40FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA76D8BA1DA8987300AC40FD = {
+			isa = PBXGroup;
+			children = (
+				CA76D8C51DA8987300AC40FD /* CocoaBinding_learn */,
+				CA76D8DC1DA8987300AC40FD /* CocoaBinding_learnTests */,
+				CA76D8E71DA8987300AC40FD /* CocoaBinding_learnUITests */,
+				CA76D8C41DA8987300AC40FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA76D8C41DA8987300AC40FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA76D8C31DA8987300AC40FD /* CocoaBinding_learn.app */,
+				CA76D8D91DA8987300AC40FD /* CocoaBinding_learnTests.xctest */,
+				CA76D8E41DA8987300AC40FD /* CocoaBinding_learnUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA76D8C51DA8987300AC40FD /* CocoaBinding_learn */ = {
+			isa = PBXGroup;
+			children = (
+				CA76D8C61DA8987300AC40FD /* AppDelegate.h */,
+				CA76D8C71DA8987300AC40FD /* AppDelegate.m */,
+				CA76D8CC1DA8987300AC40FD /* ViewController.h */,
+				CA76D8CD1DA8987300AC40FD /* ViewController.m */,
+				CA76D8CF1DA8987300AC40FD /* Assets.xcassets */,
+				CA76D8D11DA8987300AC40FD /* Main.storyboard */,
+				CA76D8D41DA8987300AC40FD /* Info.plist */,
+				CA76D8C91DA8987300AC40FD /* Supporting Files */,
+			);
+			path = CocoaBinding_learn;
+			sourceTree = "<group>";
+		};
+		CA76D8C91DA8987300AC40FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA76D8CA1DA8987300AC40FD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA76D8DC1DA8987300AC40FD /* CocoaBinding_learnTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA76D8DD1DA8987300AC40FD /* CocoaBinding_learnTests.m */,
+				CA76D8DF1DA8987300AC40FD /* Info.plist */,
+			);
+			path = CocoaBinding_learnTests;
+			sourceTree = "<group>";
+		};
+		CA76D8E71DA8987300AC40FD /* CocoaBinding_learnUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA76D8E81DA8987300AC40FD /* CocoaBinding_learnUITests.m */,
+				CA76D8EA1DA8987300AC40FD /* Info.plist */,
+			);
+			path = CocoaBinding_learnUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA76D8C21DA8987300AC40FD /* CocoaBinding_learn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA76D8ED1DA8987300AC40FD /* Build configuration list for PBXNativeTarget "CocoaBinding_learn" */;
+			buildPhases = (
+				CA76D8BF1DA8987300AC40FD /* Sources */,
+				CA76D8C01DA8987300AC40FD /* Frameworks */,
+				CA76D8C11DA8987300AC40FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaBinding_learn;
+			productName = CocoaBinding_learn;
+			productReference = CA76D8C31DA8987300AC40FD /* CocoaBinding_learn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA76D8D81DA8987300AC40FD /* CocoaBinding_learnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA76D8F01DA8987300AC40FD /* Build configuration list for PBXNativeTarget "CocoaBinding_learnTests" */;
+			buildPhases = (
+				CA76D8D51DA8987300AC40FD /* Sources */,
+				CA76D8D61DA8987300AC40FD /* Frameworks */,
+				CA76D8D71DA8987300AC40FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA76D8DB1DA8987300AC40FD /* PBXTargetDependency */,
+			);
+			name = CocoaBinding_learnTests;
+			productName = CocoaBinding_learnTests;
+			productReference = CA76D8D91DA8987300AC40FD /* CocoaBinding_learnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA76D8E31DA8987300AC40FD /* CocoaBinding_learnUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA76D8F31DA8987300AC40FD /* Build configuration list for PBXNativeTarget "CocoaBinding_learnUITests" */;
+			buildPhases = (
+				CA76D8E01DA8987300AC40FD /* Sources */,
+				CA76D8E11DA8987300AC40FD /* Frameworks */,
+				CA76D8E21DA8987300AC40FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA76D8E61DA8987300AC40FD /* PBXTargetDependency */,
+			);
+			name = CocoaBinding_learnUITests;
+			productName = CocoaBinding_learnUITests;
+			productReference = CA76D8E41DA8987300AC40FD /* CocoaBinding_learnUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA76D8BB1DA8987300AC40FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Ralph007;
+				TargetAttributes = {
+					CA76D8C21DA8987300AC40FD = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					CA76D8D81DA8987300AC40FD = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CA76D8C21DA8987300AC40FD;
+					};
+					CA76D8E31DA8987300AC40FD = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CA76D8C21DA8987300AC40FD;
+					};
+				};
+			};
+			buildConfigurationList = CA76D8BE1DA8987300AC40FD /* Build configuration list for PBXProject "CocoaBinding_learn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA76D8BA1DA8987300AC40FD;
+			productRefGroup = CA76D8C41DA8987300AC40FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA76D8C21DA8987300AC40FD /* CocoaBinding_learn */,
+				CA76D8D81DA8987300AC40FD /* CocoaBinding_learnTests */,
+				CA76D8E31DA8987300AC40FD /* CocoaBinding_learnUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA76D8C11DA8987300AC40FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA76D8D01DA8987300AC40FD /* Assets.xcassets in Resources */,
+				CA76D8D31DA8987300AC40FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA76D8D71DA8987300AC40FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA76D8E21DA8987300AC40FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA76D8BF1DA8987300AC40FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA76D8CE1DA8987300AC40FD /* ViewController.m in Sources */,
+				CA76D8CB1DA8987300AC40FD /* main.m in Sources */,
+				CA76D8C81DA8987300AC40FD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA76D8D51DA8987300AC40FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA76D8DE1DA8987300AC40FD /* CocoaBinding_learnTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA76D8E01DA8987300AC40FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA76D8E91DA8987300AC40FD /* CocoaBinding_learnUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA76D8DB1DA8987300AC40FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA76D8C21DA8987300AC40FD /* CocoaBinding_learn */;
+			targetProxy = CA76D8DA1DA8987300AC40FD /* PBXContainerItemProxy */;
+		};
+		CA76D8E61DA8987300AC40FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA76D8C21DA8987300AC40FD /* CocoaBinding_learn */;
+			targetProxy = CA76D8E51DA8987300AC40FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA76D8D11DA8987300AC40FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA76D8D21DA8987300AC40FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA76D8EB1DA8987300AC40FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CA76D8EC1DA8987300AC40FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CA76D8EE1DA8987300AC40FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CocoaBinding_learn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Baidu.CocoaBinding-learn";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA76D8EF1DA8987300AC40FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CocoaBinding_learn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Baidu.CocoaBinding-learn";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CA76D8F11DA8987300AC40FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CocoaBinding_learnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Baidu.CocoaBinding-learnTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CocoaBinding_learn.app/Contents/MacOS/CocoaBinding_learn";
+			};
+			name = Debug;
+		};
+		CA76D8F21DA8987300AC40FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CocoaBinding_learnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Baidu.CocoaBinding-learnTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CocoaBinding_learn.app/Contents/MacOS/CocoaBinding_learn";
+			};
+			name = Release;
+		};
+		CA76D8F41DA8987300AC40FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CocoaBinding_learnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Baidu.CocoaBinding-learnUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CocoaBinding_learn;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CA76D8F51DA8987300AC40FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CocoaBinding_learnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Baidu.CocoaBinding-learnUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CocoaBinding_learn;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA76D8BE1DA8987300AC40FD /* Build configuration list for PBXProject "CocoaBinding_learn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA76D8EB1DA8987300AC40FD /* Debug */,
+				CA76D8EC1DA8987300AC40FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA76D8ED1DA8987300AC40FD /* Build configuration list for PBXNativeTarget "CocoaBinding_learn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA76D8EE1DA8987300AC40FD /* Debug */,
+				CA76D8EF1DA8987300AC40FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA76D8F01DA8987300AC40FD /* Build configuration list for PBXNativeTarget "CocoaBinding_learnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA76D8F11DA8987300AC40FD /* Debug */,
+				CA76D8F21DA8987300AC40FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA76D8F31DA8987300AC40FD /* Build configuration list for PBXNativeTarget "CocoaBinding_learnUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA76D8F41DA8987300AC40FD /* Debug */,
+				CA76D8F51DA8987300AC40FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA76D8BB1DA8987300AC40FD /* Project object */;
+}
