@@ -14,6 +14,7 @@
 		CA76D8D31DA8987300AC40FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA76D8D11DA8987300AC40FD /* Main.storyboard */; };
 		CA76D8DE1DA8987300AC40FD /* CocoaBinding_learnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA76D8DD1DA8987300AC40FD /* CocoaBinding_learnTests.m */; };
 		CA76D8E91DA8987300AC40FD /* CocoaBinding_learnUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA76D8E81DA8987300AC40FD /* CocoaBinding_learnUITests.m */; };
+		CA76D8F81DA8B02B00AC40FD /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = CA76D8F71DA8B02B00AC40FD /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		CA76D8E41DA8987300AC40FD /* CocoaBinding_learnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaBinding_learnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA76D8E81DA8987300AC40FD /* CocoaBinding_learnUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaBinding_learnUITests.m; sourceTree = "<group>"; };
 		CA76D8EA1DA8987300AC40FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA76D8F61DA8B02B00AC40FD /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		CA76D8F71DA8B02B00AC40FD /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				CA76D8D11DA8987300AC40FD /* Main.storyboard */,
 				CA76D8D41DA8987300AC40FD /* Info.plist */,
 				CA76D8C91DA8987300AC40FD /* Supporting Files */,
+				CA76D8F61DA8B02B00AC40FD /* Person.h */,
+				CA76D8F71DA8B02B00AC40FD /* Person.m */,
 			);
 			path = CocoaBinding_learn;
 			sourceTree = "<group>";
@@ -268,6 +273,7 @@
 			files = (
 				CA76D8CE1DA8987300AC40FD /* ViewController.m in Sources */,
 				CA76D8CB1DA8987300AC40FD /* main.m in Sources */,
+				CA76D8F81DA8B02B00AC40FD /* Person.m in Sources */,
 				CA76D8C81DA8987300AC40FD /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
